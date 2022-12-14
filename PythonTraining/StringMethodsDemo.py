@@ -18,3 +18,9 @@ c = "Naresh Naresh 's is  's is"
 print(c.find("is"))
 
 print(c.isalnum())
+
+print(c.isprintable())
+
+str1 = "    "
+
+print(str1.isspace())
