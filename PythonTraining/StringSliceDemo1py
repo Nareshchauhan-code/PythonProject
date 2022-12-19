@@ -1,0 +1,6 @@
+name = "Naresh Chauhan"
+
+print(name[:3])
+print(name[3:4])
+print(name[4:])
+
