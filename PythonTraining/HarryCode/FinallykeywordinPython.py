@@ -11,5 +11,6 @@ def func():
     finally:
         print("I am always executed")
 
-        x = func()
-    print(x)
+
+x = func()
+print(x)
