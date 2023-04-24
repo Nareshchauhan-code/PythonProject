@@ -12,4 +12,4 @@ assert 'Yahoo' in browser.title
 elem = browser.find_element(By.NAME, 'p')  # Find the search box
 elem.send_keys('seleniumhq' + Keys.RETURN)
 
-browser.quit()
+#browser.quit()
